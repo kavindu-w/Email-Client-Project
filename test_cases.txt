@@ -1,0 +1,96 @@
+** change case 1,3,4 current date
+prepare excel analysis
+######################################################################################
+case 1 : adding 
+1
+Official: nimal,nimal@gmail.com,ceo
+1
+Official: nimal2,nimal2@gmail.com,clerk
+1
+Official: nimal3,nimal3@gmail.com,clerk
+1
+Official: nimal4,nimal4@gmail.com,clerk
+1
+Official: nimal5,nimal5@gmail.com,clerk
+1
+Office_friend: kamal,kamal@gmail.com,clerk,2022/08/01
+1
+Office_friend: kamal2,kamal2@gmail.com,clerk,2022/07/25
+1
+Office_friend: kamal3,kamal3@gmail.com,clerk,2022/07/25
+1
+Office_friend: kamal4,kamal4@gmail.com,clerk,2022/08/12 
+1
+Office_friend: kamal5,kamal5@gmail.com,clerk,2022/09/19
+1
+Personal: sunil,sunimal,sunil@gmail.com,2000/10/10
+1
+Personal: sunil2,sunimal2,sunil2@gmail.com,2022/07/25
+1
+Personal: suni3,sunimal3,sunil3@gmail.com,2022/07/25
+1
+Personal: sunil4,sunimal4,sunil4@gmail.com,2000/10/10
+1
+Personal: sunil5,sunimal5,sunil5@gmail.com,2022/09/19
+
+=====================================================================
+// duplicate, invalid email, invalid date, invalid # of arguments, multiple errors
+1
+Official: nimal,nimal@gmail.com,ceo 
+1
+Personal: sunil,sunimal,sunilgmail.com,2000/10/10
+1
+Personal: sunil,sunimal,sunil@gmail.com,2000/1010
+1
+Personal: sunil,sunimal,sunil@gmail.com
+1
+Personal: sunil,sunimal,sunilgmail.com,2000/1010
+
+######################################################################################
+case 2: sending email to anyone
+2
+akwarnakulasuriya@gmail.com, A special discount is waiting for you inside,Hi!<br>Wish you a nice day!<br>Please show this email to the cashier to get 10% discount on your final bill.<br>Thank you so much for being a customer of akw.<br><br>Best regards<br>Kavindu Warnakulasuirya.
+2
+akwarnakulasuriya@gmail.com,URGENT: Update about the program,Dear sir/ madam<br>The email client program is completed and working perfectly.<br>Please confirm a date for deployement.<br>Thank you.<br><br>Best regards<br>Kavindu Warnakulasuirya.
+2
+akwarnakulasuriya@gmail.com, Hello Kamal, How are you today.<br>Please follow up this email with a date for us to meet.<br>Be safe.<br><br>Your friend<br>Kavindu.
+
+=====================================================================================
+// invalid email, invalid # of arguments
+2
+akwarnakulasuriyagmail.com, A special discount is waiting for you inside, Hi Thank you so much for being a customer of akw.
+2
+akwarnakulasuriya@gmail.com, A special discount is waiting for you inside
+
+######################################################################################
+case 3: // Printing out all the recipients who have birthdays
+3
+2022/07/25
+3
+2022/09/19
+
+=====================================================================================
+// invalid date, no birthdays in the date
+3
+2022/07/255
+3
+2000/03/22 
+
+######################################################################################
+case 4: date email get, no emails on date
+4
+2022/09/19
+
+4
+2000/03/22 
+
+// change it in ser and see ****use notepad
+4
+2022/08/04
+
+#####################################################################################
+// invalid option(str, number other than 0-5 and -1)
+// invalid username and password check at begining 
+Emailer emailer = Emailer.getInstance("kavindutestergmail.com", "cqspnyxiludhepel");
+kavindutester
+cqspnyxiludhepel
