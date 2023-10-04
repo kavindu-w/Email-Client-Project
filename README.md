@@ -42,6 +42,6 @@ Plagiarism is a serious ethical violation that can have severe consequences, inc
 
 I strongly encourage you to properly cite and attribute any code or ideas derived from this email client if you plan to use them in your academic or professional work. Additionally, I recommend thoroughly understanding the concepts and principles behind the code implementation, making necessary modifications, and adding your unique contributions to ensure originality and integrity.
 
-By using the email client provided here, you acknowledge that I, as an AI language model, cannot be held responsible for any consequences, including but not limited to academic penalties or legal repercussions, resulting from the misuse or unethical use of this email client.
+By using the email client provided here, you acknowledge that I cannot be held responsible for any consequences, including but not limited to academic penalties or legal repercussions, resulting from the misuse or unethical use of this email client.
 
 Please exercise caution, academic honesty, and responsible conduct when utilizing any resources, including this email client project.
